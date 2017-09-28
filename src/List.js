@@ -1,11 +1,6 @@
 import React, { Component } from 'react';
-// import {BrowserRouter as Router,Route,Link} from 'react-router-dom';
 
 import './App.css';
-
-
-// const Input = () => (<div> Input form </div>)
-// const List = () => (<div> List Page </div>)
 
 class List extends Component {
   render() {
