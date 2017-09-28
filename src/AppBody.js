@@ -9,10 +9,6 @@ import './App.css';
 
 import {addFeedAction} from "./actions";
 
-
-// const Input = () => (<div> Input form </div>)
-// const List = () => (<div> List Page </div>)
-
 class AppBody extends Component {
   render() {
     return (
