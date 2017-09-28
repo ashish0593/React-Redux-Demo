@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
-
+import {Link} from 'react-router-dom';
 import './App.css';
 
 class List extends Component {
   render() {
     return (
         <div>
+          {this.props.feeds.length == 0  ?
+            (<div> <center><h2 className='header'>GoTo <Link to="/input">InputData</Link> page and submit your first feed</h2></center></div>):""}
           {this.props.feeds.map((feed, index) => (
 
             	<div className="row">
